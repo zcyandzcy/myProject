@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83262bfc-23ac-466d-ad4c-8e8f5db499bc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/ChooseSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcy/concurrency/LimitDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path=".idea/workspace.xml" />
     <ignored path="target/" />
+    <ignored path=".idea/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,20 @@
       <option value="module" />
     </option>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="myProject" />
   </component>
@@ -30,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -39,16 +53,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1425">
-              <caret line="75" column="10" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="75" selection-end-column="10" />
+              <caret line="75" column="10" selection-start-line="73" selection-start-column="8" selection-end-line="75" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="608">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,8 +70,20 @@
       <file leaf-file-name="ChooseSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/ChooseSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="551">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LimitDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/concurrency/LimitDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +105,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/ChooseSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zcy/algorithm/InsertSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zcy/Concurrency.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zcy/concurrency/Concurrency.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zcy/concurrency/LimitDemo.java" />
       </list>
     </option>
   </component>
@@ -112,12 +142,34 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.poi:poi-ooxml:3.16" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,25 +218,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zcy" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zcy" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChooseSort">
+  <component name="RunManager" selected="Application.LimitDemo">
     <configuration name="ChooseSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zcy.algorithm.ChooseSort" />
       <module name="myProject" />
@@ -216,6 +267,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zcy.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LimitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zcy.concurrency.LimitDemo" />
+      <module name="myProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcy.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,9 +326,11 @@
     <list>
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.ChooseSort" />
+      <item itemvalue="Application.LimitDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LimitDemo" />
         <item itemvalue="Application.ChooseSort" />
         <item itemvalue="Application.InsertSort" />
       </list>
@@ -277,7 +341,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ef964ad-5010-4484-b952-5161d4e235e7" name="Default" comment="" />
+      <changelist id="83262bfc-23ac-466d-ad4c-8e8f5db499bc" name="Default" comment="" />
       <created>1532400582984</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -287,6 +351,7 @@
       <workItem from="1532424395121" duration="1492000" />
       <workItem from="1532425921208" duration="1865000" />
       <workItem from="1532480554984" duration="2162000" />
+      <workItem from="1532503962757" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1532485965266</created>
@@ -302,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532499933741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="几种算法">
+      <created>1532501859298</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532501859298</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1736000" />
+    <option name="totallyTimeSpent" value="5577000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -318,62 +390,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <frame x="1" y="23" width="1440" height="829" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329235" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.2554645" />
-      <window_info anchor="right" id="Palette&#9;" order="15" />
-      <window_info id="Image Layers" order="13" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028612" side_tool="true" weight="0.4057377" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297568" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32240438" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49713877" visible="true" weight="0.10245901" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49785408" weight="0.34153005" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49898168" visible="true" weight="0.2732475" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" sideWeight="0.50101835" side_tool="true" weight="0.24964234" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42213115" />
-      <window_info id="Favorites" order="5" sideWeight="0.50101835" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50214595" side_tool="true" weight="0.46311477" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49898168" visible="true" weight="0.26037195" />
-      <window_info id="Favorites" order="8" sideWeight="0.50101835" side_tool="true" weight="0.24964234" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
-      <window_info anchor="bottom" id="Java Enterprise" order="20" />
-      <window_info id="Structure" order="6" sideWeight="0.50101835" side_tool="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.49785408" weight="0.5218579" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" weight="0.3297568" />
-      <window_info id="Web" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info id="Image Layers" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="11" />
-      <window_info anchor="right" id="Database" order="12" weight="0.3297568" />
-      <window_info id="Capture Tool" order="10" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="19" sideWeight="0.49785408" visible="true" weight="0.4043716" />
-      <window_info anchor="right" id="Capture Analysis" order="13" />
-      <window_info anchor="bottom" id="TODO" order="15" weight="0.329235" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info id="UI Designer" order="11" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.23907104" />
       <window_info anchor="right" id="Palette" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.329235" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.2554645" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50214595" side_tool="true" weight="0.46311477" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.3297568" />
+      <window_info anchor="bottom" id="Database Changes" order="18" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.23907104" />
+      <window_info anchor="bottom" id="Version Control" order="19" sideWeight="0.49785408" weight="0.26912567" />
+      <window_info anchor="bottom" id="Terminal" order="17" sideWeight="0.49785408" weight="0.5218579" />
+      <window_info id="Capture Tool" order="10" />
       <window_info id="Designer" order="12" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49898168" visible="true" weight="0.1988555" />
+      <window_info anchor="right" id="Database" order="12" weight="0.3297568" />
+      <window_info id="Structure" order="6" sideWeight="0.50101835" side_tool="true" weight="0.24964234" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24964234" />
+      <window_info id="UI Designer" order="11" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.29644808" />
+      <window_info id="Favorites" order="8" sideWeight="0.50101835" side_tool="true" weight="0.24964234" />
+      <window_info id="Web" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="20" />
+      <window_info anchor="bottom" id="Find" order="4" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -432,21 +485,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="几种算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="几种算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/util/FileUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/util/ExcelUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/util/Dom4jUtil.java" />
@@ -598,13 +645,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -623,15 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/zcy/algorithm/InsertSort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/zcy/algorithm/InsertSort.class" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -642,28 +674,45 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/ChooseSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
-          <caret line="75" column="10" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="75" selection-end-column="10" />
+          <caret line="75" column="10" selection-start-line="73" selection-start-column="8" selection-end-line="75" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="608">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/algorithm/ChooseSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zcy/concurrency/LimitDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

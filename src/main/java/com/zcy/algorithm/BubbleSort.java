@@ -4,14 +4,13 @@ import java.util.Random;
 
 /**
  * @author zcy
- * @apiNote 冒泡排序算法
+ * @apiNote 交换排序之一  --> 冒泡排序算法
  * 对冒泡排序常见的改进方法是加入标志性变量exchange，用于标志某一趟排序过程中是否有数据交换。
  */
 public class BubbleSort {
 
     public void bubbleSort(int[] list) {
         int temp = 0; // 用来交换的临时数
-
         // 要遍历的次数
         for (int i = 0; i < list.length - 1; i++) {
             // 从后向前依次的比较相邻两个数的大小，遍历一次后，把数组中第i小的数放在第i个位置上
@@ -57,6 +56,36 @@ public class BubbleSort {
         }
     }
 
+
+    public void bubbleSort_3(int[] array) {
+        int tmp = 0;
+        //记录最后一次交换的位置
+        int lastExchangeIndex = 0;
+        //无序数列的边界，每次比较只需要比到这里为止
+        int sortBorder = array.length - 1;
+        for (int i = 0; i < array.length; i++) {
+            //有序标记，每一轮的初始是true
+            boolean isSorted = true;
+            for (int j = 0; j < sortBorder; j++) {
+                if (array[j] > array[j + 1]) {
+                    tmp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = tmp;
+                    //有元素交换，所以不是有序，标记变为false
+                    isSorted = false;
+                    //把无序数列的边界更新为最后一次交换元素的位置
+                    lastExchangeIndex = j;
+                }
+            }
+            sortBorder = lastExchangeIndex;
+            if (isSorted) {
+                break;
+            }
+            System.out.format("第 %d 趟：	", i);
+            printAll(array);
+        }
+    }
+
     // 打印完整序列
     public void printAll(int[] list) {
         for (int value : list) {
@@ -76,11 +105,12 @@ public class BubbleSort {
 
         // 调用冒泡排序方法
         BubbleSort bubble = new BubbleSort();
-        System.out.print("排序前:	");
         bubble.printAll(array);
-        // bubble.bubbleSort(array);
-        bubble.bubbleSort_2(array);
-        System.out.print("排序后:	");
+        System.out.println("排序前:	"+System.currentTimeMillis());
+//         bubble.bubbleSort(array);
+//        bubble.bubbleSort_2(array);
+        bubble.bubbleSort_3(array);
+        System.out.println("排序后:	"+System.currentTimeMillis());
         bubble.printAll(array);
     }
 }

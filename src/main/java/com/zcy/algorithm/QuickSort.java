@@ -2,7 +2,7 @@ package com.zcy.algorithm;
 
 /**
  * @author zcy
- * @apiNote 快速排序算法
+ * @apiNote 交换排序之一  --> 快速排序算法
  */
 public class QuickSort {
 

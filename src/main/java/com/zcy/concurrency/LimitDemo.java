@@ -15,8 +15,7 @@ public class LimitDemo {
     /**
      * 限流神器：Guava RateLimiter
      * <p>
-     * Guava不仅仅在集合、缓存、异步回调等方面功能强大（可以参考博主的《使用Google Guava快乐编程》），
-     * 而且还给我们封装好了限流的API！
+     * Guava不仅仅在集合、缓存、异步回调等方面功能强大，而且还给我们封装好了限流的API！
      * <p>
      * Guava RateLimiter基于令牌桶算法，我们只需要告诉RateLimiter系统限制的QPS是多少，
      * 那么RateLimiter将以这个速度往桶里面放入令牌，然后请求的时候，
